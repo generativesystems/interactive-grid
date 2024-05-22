@@ -49,7 +49,7 @@ function setup() {
 }
 
 function draw() {
-    background(255);
+    background(0);
     let w = width / cols;
     let h = height / rows;
     for (let i = 0; i < cols; i++) {
