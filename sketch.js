@@ -59,6 +59,7 @@ function draw() {
             } else {
                 fill(255);
             }
+            stroke(255);
             ellipse(i * w + w / 2, j * h + h / 2, w, h);
         }
     }
