@@ -48,6 +48,7 @@ function setup() {
     });
 }
 
+
 function draw() {
     background(0);
     let w = width / cols;
@@ -59,6 +60,9 @@ function draw() {
             } else {
                 fill(255);
             }
+            ellipse(i * w + w / 2, j * h + h / 2, w, h);
+            stroke(255);
+            noFill();
             ellipse(i * w + w / 2, j * h + h / 2, w, h);
         }
     }
